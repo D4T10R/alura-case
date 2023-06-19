@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-export default function erro404() {
+export default function Page404() {
     return (
         <div>
-            <h1>Você se perdeu 404</h1>
-            <Link href='/'>
-                ir para HOME
+            <h1>Você se perdeu e caiu na página 404 :O</h1>
+            <Link href="/">
+                Ir para a home
             </Link>
         </div>
     )

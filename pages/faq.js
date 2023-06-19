@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-export default function FAQpage() {
+export default function FAQPage() {
     return (
         <div>
-            <h1>Alura case - Pagina de perguntas FAQ</h1>
+            <h1>Alura Cases - Páginas de Perguntas FAQ</h1>
             <Link href="/">
-                Ir para a HOME
+                Ir para a home
             </Link>
         </div>
     )
